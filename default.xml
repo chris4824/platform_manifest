@@ -558,7 +558,7 @@
   <project path="external/chromium_org/third_party/boringssl/src" name="CyanogenMod/android_external_chromium_org_third_party_boringssl_src" remote="github" revision="cm-12.1" />
  
   <!-- New Additions for Tipsy -->
-  <project path="vendor/tipsy" name="vendor_tipsy" remote="to" revision="lp5.1" />
+  <project path="vendor/tipsy" name="vendor_tipsy" remote="to" revision="testing" />
   <project path="packages/apps/CMFileManager" name="packages_apps_CMFileManager" remote="to" revision="lp5.1" />
 
   <!-- Kernel Adiutor -->
