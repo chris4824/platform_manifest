@@ -23,7 +23,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="tipsy_build" remote="to" revision="lp5.1" >
+  <project path="build" name="tipsy_build" remote="to" revision="testing" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
