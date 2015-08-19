@@ -26,6 +26,21 @@
   <project path="build" name="tipsy_build" remote="to" revision="testing" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
+  <!-- Tipsy repos -->
+  <project path="libcore" name="android_libcore" remote="to" revision="lp5.1" />
+  <project path="vendor/tipsy" name="vendor_tipsy" remote="to" revision="testing" />
+  <project path="frameworks/base" name="frameworks_base" remote="to" revision="testing" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="to" revision="testing" />
+  <project path="external/sepolicy" name="external_sepolicy" remote="to" revision="lp5.1" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="to" revision="lp5.1" />
+  <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="to" revision="lp5.1" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="to" revision="lp5.1" />
+  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="to" revision="lp5.1" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="to" revision="lp5.1" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="to" revision="lp5.1" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="to" revision="lp5.1" />
+
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="SlimRoms/android_art" remote="github" revision="lp5.1"  />
   <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="lp5.1" />
@@ -258,7 +273,6 @@
   <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
-  <project path="external/sepolicy" name="external_sepolicy" remote="to" revision="lp5.1" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/skia" name="SlimRoms/android_external_skia" remote="github" revision="lp5.1" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
@@ -276,7 +290,6 @@
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs" />
   <project path="external/tinyalsa" name="SlimRoms/android_external_tinyalsa" remote="github" revision="lp5.1" />
-  <project path="external/tinycompress" name="TipsyOs/external_tinycompress" remote="github" revision="lp5.1" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
@@ -292,7 +305,6 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="lp5.1" />
-  <project path="frameworks/base" name="frameworks_base" remote="to" revision="testing" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -395,7 +407,6 @@
   <project path="hardware/ti/omap4xxx" name="SlimRoms/hardware_ti_omap4xxx" remote="github" revision="lp5.1" />
   <project path="hardware/ti/wlan" name="SlimRoms/hardware_ti_wlan" remote="github" revision="lp5.1" />
   <project path="hardware/ti/wpan" name="SlimRoms/hardware_ti_wpan" remote="github" revision="lp5.1" />
-  <project path="libcore" name="android_libcore" remote="to" revision="lp5.1" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AudioFX" name="SlimRoms/packages_apps_AudioFX" remote="github" revision="lp5.1" />
@@ -409,17 +420,13 @@
   <project path="packages/apps/Camera2" name="SlimRoms/packages_apps_Camera2" remote="github" revision="lp5.1" />
   <project path="packages/apps/CellBroadcastReceiver" name="SlimRoms/packages_apps_CellBroadcastReceiver" remote="github" revision="lp5.1" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="to" revision="lp5.1" />
-  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="to" revision="lp5.1" />
   <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" remote="github" revision="lp5.1" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="to" revision="lp5.1" />
   <project path="packages/apps/Email" name="SlimRoms/packages_apps_Email" remote="github" revision="lp5.1" />
   <project path="packages/apps/Exchange" name="SlimRoms/packages_apps_Exchange" remote="github" revision="lp5.1" />
   <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="SlimRoms/packages_apps_Gallery2" remote="github" revision="lp5.1" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="to" revision="lp5.1" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
@@ -428,11 +435,9 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
-  <project path="packages/apps/PackageInstaller" name="TipsyOs/packages_apps_PackageInstaller" remote="github" revision="lp5.1" />
   <project path="packages/apps/PhoneCommon" name="SlimRoms/packages_apps_PhoneCommon" remote="github" revision="lp5.1" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="to" revision="testing" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -460,7 +465,6 @@
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Mms" name="SlimRoms/packages_services_Mms" remote="github" revision="lp5.1" />
   <project path="packages/services/Telecomm" name="SlimRoms/packages_services_Telecomm" remote="github" revision="lp5.1" />
-  <project path="packages/services/Telephony" name="TipsyOS/packages_services_Telephony" remote="github" revision="lp5.1" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -563,7 +567,6 @@
   <project path="external/chromium_org/third_party/boringssl/src" name="CyanogenMod/android_external_chromium_org_third_party_boringssl_src" remote="github" revision="cm-12.1" />
  
   <!-- New Additions for Tipsy -->
-  <project path="vendor/tipsy" name="vendor_tipsy" remote="to" revision="testing" />
   <project path="packages/apps/CMFileManager" name="packages_apps_CMFileManager" remote="to" revision="lp5.1" />
 
   <!-- Screen Recorder -->
