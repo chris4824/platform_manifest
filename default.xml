@@ -574,6 +574,7 @@
 
   <!-- New Additions for Tipsy -->
   <project path="packages/apps/CMFileManager" name="packages_apps_CMFileManager" remote="to" revision="lp5.1" />
+  <project name="mikeNG/android_packages_apps_Snap" path="packages/apps/Snap" remote="github" revision="cm-12.1" />
 
   <!-- Screen Recorder -->
   <project path="packages/apps/ScreenRecorder" name="packages_apps_ScreenRecorder" remote="to" revision="lp5.1" />
