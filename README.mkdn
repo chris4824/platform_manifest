@@ -1,0 +1,11 @@
+
+
+To initialize your local repository using the TipsyOs trees, use this command:
+
+
+	repo init -u git://github.com/TipsyOs/platform_manifest.git -b caf
+
+
+Then sync up with this command:
+
+	repo sync
