@@ -1,23 +1,22 @@
 Welcome to TipsyOs
 ===================
 
-This is just my testing ground
-I wanted a place to test and learn, so i created this to play around a bit when i'm waiting for other shit to build.
-I'm usually tipsy wwhen i do this, so thats why its named that way.
 
 Getting Started
 ---------------
 
-To get started with TipsyOs, you'll need to get familiar with
+To get started with TipsyOs M, you'll need to get familiar with
 [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the TipsyOs trees, use this command:
 
 
-	repo init -u git://github.com/TipsyOs/platform_manifest.git -b testing
+	repo init -u git://github.com/TipsyOs/platform_manifest.git -b 6.0
 
 
 
 Then sync up with this command:
 
 	repo sync
+
+Next step is going to the fridge for beer, and go from there
