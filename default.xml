@@ -495,7 +495,7 @@
   <project path="system/extras/su" name="SlimRoms/android_system_extras_su" remote="github" revision="mm6.0" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="SlimRoms/android_system_keymaster" remote="github" revision="mm6.0" />
-  <project path="system/media" name="SlimRoms/android_system_media" remote="github" revision="mm6.0" />
+  <project path="system/media" name="TipsyOs/system_media" remote="github" revision="m6.0" />
   <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="mm6.0" />
   <project path="system/qcom" name="SlimRoms/android_system_qcom" remote="github" revision="mm6.0" />
   <project path="system/security" name="SlimRoms/android_system_security" remote="github" revision="mm6.0" />
