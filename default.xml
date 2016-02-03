@@ -21,7 +21,7 @@
   <remote name="bb"
            fetch="https://bitbucket.org/" />
 
-  <default revision="refs/tags/android-6.0.1_r10"
+  <default revision="refs/tags/android-6.0.1_r13"
            remote="aosp"
            sync-j="4" />
 
@@ -31,13 +31,20 @@
   </project>
   <project path="bionic" name="android_bionic" remote="tipsy" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="tipsy" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="tipsy" />
   <project path="frameworks/av" name="frameworks_av" remote="tipsy" />
   <project path="frameworks/base" name="frameworks_base" remote="tipsy" />
   <project path="frameworks/native" name="frameworks_native" remote="tipsy" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="tipsy" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="tipsy" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="tipsy" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tipsy" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tipsy" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="tipsy" />
   <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy" />
+
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="tipsy" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="aospb" />
 
   <!-- Tipsy Additions  -->
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="tipsy" />
@@ -45,7 +52,6 @@
   <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" remote="github" revision="cm-13.0" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-13.0" />
   <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-13.0" />
-  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tipsy" />
 
   <!-- Telephony -->
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="tipsy" />
@@ -88,7 +94,6 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
-  <project path="device/qcom/common" name="device_qcom_common" remote="aospb" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aospb" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
@@ -358,7 +363,6 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
-  <project path="hardware/libhardware" name="tesla-caf/hardware_libhardware" remote="github" revision="mm6.0" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="aospb" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
   <project path="hardware/mediatek" name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" />
