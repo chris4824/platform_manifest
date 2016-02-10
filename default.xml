@@ -42,8 +42,8 @@
   <project path="system/bt" name="system_bt" remote="tipsy" />
   <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy" />
 
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="tipsy" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="aospb" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="github" revision="cm-13.0" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="github" revision="cm-13.0" />
 
   <!-- Tipsy Additions  -->
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="tipsy" />
@@ -366,21 +366,21 @@
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
   <project path="hardware/mediatek" name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
-  <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="aospb" />
+  <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-13.0" />
   <project path="hardware/qcom/audio-caf/msm8960" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-13.0-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" remote="aospb" revision="mm6.0-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-13.0-caf-8974" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="aospb" />
   <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" remote="aospb" revision="mm6.0-caf" />
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="aospb" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="aospb" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-13.0" />
   <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-13.0-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" remote="aospb" revision="mm6.0-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-13.0-caf-8974" />
   <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="aospb" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="aospb" />
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="aospb" />
-  <project path="hardware/qcom/media/default" name="hardware_qcom_media" remote="aospb" />
+  <project path="hardware/qcom/media/default" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-13.0" />
   <project path="hardware/qcom/media-caf/msm8960" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-13.0-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" remote="aospb" revision="mm6.0-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-13.0-caf-8974" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="pdk,qcom_msm8x74" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="aospb" />
