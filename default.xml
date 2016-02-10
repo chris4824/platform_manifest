@@ -42,8 +42,8 @@
   <project path="system/bt" name="system_bt" remote="tipsy" />
   <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy" />
 
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="github" revision="cm-13.0" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="github" revision="cm-13.0" />
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" revision="cm-13.0" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" revision="cm-13.0" />
 
   <!-- Tipsy Additions  -->
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="tipsy" />
