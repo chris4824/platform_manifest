@@ -524,6 +524,6 @@
   <!-- ffmpeg -->
   <project path="external/ffmpeg" name="external_ffmpeg" remote="aospb" />
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="aospb" />
-  <project name="local_manifest" path=".repo/local_manifests" remote="manifest" revision="mm6.0" />
+  <project name="local_manifest" path=".repo/local_manifests" remote="manifest" revision="tipsy" />
 
 </manifest>
