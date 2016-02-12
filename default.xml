@@ -3,6 +3,10 @@
   <remote  name="manifest"
            fetch="file:///home/chris/android/github_trackers" />
 
+  <remote name="broken"
+          fetch="https://github.com/BrokenROM/"
+          revision="m6.0.1" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
@@ -39,11 +43,11 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tipsy" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tipsy" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="tipsy" />
-  <project path="system/bt" name="system_bt" remote="tipsy" />
+  <project path="system/bt" name="system_bt" remote="broken" />
   <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy" />
 
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" revision="cm-13.0" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" revision="cm-13.0" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="broken" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="broken" />
 
   <!-- Tipsy Additions  -->
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="tipsy" />
@@ -208,8 +212,8 @@
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libnfc-nci" name="external_libnfc-nci" remote="aospb" />
-  <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="aospb" />
+  <project path="external/libnfc-nci" name="external_libnfc-nci" remote="broken" />
+  <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="broken" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
@@ -334,7 +338,7 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="aospb" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="aospb" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="broken" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
@@ -347,7 +351,7 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="aospb" />
+  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="broken" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="aospb" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
@@ -391,7 +395,7 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="packages_apps_BasicSmsReceiver" remote="aospb" />
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="aospb" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="broken" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="aospb" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="aospb" />
@@ -474,11 +478,11 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/core" name="system_core" remote="aospb" />
-  <project path="system/extras" name="system_extras" remote="aospb" />
+  <project path="system/core" name="system_core" remote="broken" />
+  <project path="system/extras" name="system_extras" remote="broken" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="system_keymaster" remote="aospb" />
-  <project path="system/media" name="system_media" remote="aospb" />
+  <project path="system/media" name="system_media" remote="broken" />
   <project path="system/netd" name="system_netd" remote="aospb" />
   <project path="system/qcom" name="system_qcom" remote="aospb" />
   <project path="system/security" name="system_security" remote="aospb" />
