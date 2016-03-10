@@ -10,6 +10,9 @@
   <remote name="tipsy-unleashed"
           fetch="https://github.com/tipsy-unleashed/" />
 
+  <remote name="broken-s4"
+          fetch="https://github.com/broken-s4/" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
@@ -542,6 +545,6 @@
 
   <!-- Add Ons -->
   <project name="local_manifest" path=".repo/local_manifests" remote="manifest" revision="tipsy" />
-  <project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="tipsy-unleashed" revision="aosp-6.0-test" />
+  <project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="broken-s4" revision="aosp-6.0-test" />
 
 </manifest>
