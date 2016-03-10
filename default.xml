@@ -33,7 +33,7 @@
            sync-j="4" />
 
   <!-- Tipsy stuff -->
-  <project path="build" name="tipsy_build" remote="tipsy" >
+  <project path="build" name="tipsy_build" remote="tipsy-unleashed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="android_bionic" remote="tipsy" />
