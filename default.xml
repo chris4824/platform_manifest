@@ -545,5 +545,6 @@
   <project path="system/bt" name="system_bt" remote="broken" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="broken" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="broken" />
+  <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="github" revision="cm-13.0" />
 
 </manifest>
