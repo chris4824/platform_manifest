@@ -27,11 +27,15 @@
   <remote  name="tipsy"
            fetch="https://github.com/TipsyOs"
            revision="6.0" />
+           
+  <remote  name="cm"
+           fetch="https://github.com/cyanogenmod"
+           review="review.cyanogenmod.org" />
 
   <remote name="bb"
            fetch="https://bitbucket.org/" />
 
-  <default revision="refs/tags/android-6.0.1_r13"
+  <default revision="refs/tags/android-6.0.1_r17"
            remote="aosp"
            sync-j="4" />
 
@@ -41,12 +45,12 @@
   <project path="device/qcom/common" name="device_qcom_common" remote="tipsy" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="tipsy" />
   <project path="frameworks/av" name="frameworks_av" remote="tipsy" />
-  <project path="frameworks/base" name="frameworks_base" remote="tipsy" revision="testing" />
+  <project path="frameworks/base" name="frameworks_base" remote="tipsy" />
   <project path="frameworks/native" name="frameworks_native" remote="tipsy" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="tipsy" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="tipsy" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="tipsy" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tipsy" revision="testing" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tipsy" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tipsy" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="tipsy" />
   <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy" />
@@ -58,6 +62,8 @@
   <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" remote="github" revision="cm-13.0" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-13.0" />
   <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-13.0" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-13.0" />
+  <project path="system/keymaster" name="android_system_keymaster" remote="cm" revision="cm-13.0" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="tipsy" />
 
   <!-- Telephony -->
@@ -74,6 +80,11 @@
   <project path="hardware/ril" name="hardware_ril" remote="tipsy" />
   <project path="hardware/ril-caf" name="hardware_ril" remote="tipsy" revision="6.0-caf" />
 
+  <!-- CM -->
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="cm" revision="cm-13.0" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="cm" revision="cm-13.0" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="cm" revision="cm-13.0" />
+  
   <!-- CMHW -->
   <project path="frameworks/opt/hardware" name="SlimRoms/frameworks_opt_hardware" remote="github" revision="mm6.0" />
   <project path="hardware/cyanogen" name="SlimRoms/hardware_cyanogen" remote="github" revision="mm6.0" />
@@ -114,9 +125,6 @@
   <project path="external/android-visualizer" name="external_android-visualizer" remote="aospb" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="aospb" />
-  <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="aospb" />
-  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="aospb" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/apache-http" name="external_apache-http" remote="aospb" />
