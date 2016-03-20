@@ -53,7 +53,6 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tipsy" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tipsy" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="tipsy" />
-  <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy" />
 
   <!-- OTA -->
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="tipsy" />
@@ -551,5 +550,6 @@
   <project path="hardware/libhardware" name="hardware_libhardware" remote="broken" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="broken" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="github" revision="cm-13.0" />
+  <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy-unleashed" revision="6.0" />
 
 </manifest>
