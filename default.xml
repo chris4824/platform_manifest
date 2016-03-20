@@ -53,14 +53,20 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tipsy" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tipsy" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="tipsy" />
+  <project path="system/bt" name="system_bt" remote="tipsy" />
+  <project path="system/core" name="system_core" remote="tipsy" />
+  <project path="system/extras" name="system_extras" remote="tipsy" />
+  <project path="system/media" name="system_media" remote="tipsy" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="tipsy" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="aospb" />
 
   <!-- OTA -->
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="tipsy" />
 
   <!-- Tipsy Additions  -->
   <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" remote="github" revision="cm-13.0" />
-  <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-13.0" />
-  <project path="external/google" name="CyanogenMod/android_external_google" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-13.0" />
+  <project path="external/google" name="android_external_google" remote="cm" revision="cm-13.0" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-13.0" />
   <project path="system/keymaster" name="android_system_keymaster" remote="cm" revision="cm-13.0" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="tipsy" />
@@ -143,6 +149,7 @@
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
+  <project path="external/connectivity" name="external_connectivity" remote="aospb" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk-fs" />
   <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" />
@@ -224,6 +231,8 @@
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/libnfc-nci" name="external_libnfc-nci" remote="aospb" />
+  <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="aospb" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
@@ -360,6 +369,7 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
+  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="aospb" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="aospb" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
@@ -402,6 +412,7 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="packages_apps_BasicSmsReceiver" remote="aospb" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="aospb" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="aospb" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="aospb" />
@@ -537,19 +548,7 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="tipsy-unleashed" revision="6.0" />
   <project name="local_manifest" path=".repo/local_manifests" remote="manifest" revision="tipsy" />
   <project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="broken-s4" revision="aosp-6.0-test" />
-  <project path="system/media" name="system_media" remote="broken" />
-  <project path="system/core" name="system_core" remote="broken" />
-  <project path="system/extras" name="system_extras" remote="broken" />
   <project path="packages/apps/CarrierConfig" name="platform_packages_apps_CarrierConfig" remote="broken-s4" revision="broken" />
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="broken" />
-  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="broken" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="broken" />
-  <project path="external/libnfc-nci" name="external_libnfc-nci" remote="broken" />
-  <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="broken" />
-  <project path="system/bt" name="system_bt" remote="broken" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="broken" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="broken" />
-  <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="github" revision="cm-13.0" />
   <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy-unleashed" revision="6.0" />
 
 </manifest>
