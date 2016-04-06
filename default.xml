@@ -10,8 +10,8 @@
   <remote name="tipsy-unleashed"
           fetch="https://github.com/tipsy-unleashed/" />
 
-  <remote name="broken-s4"
-          fetch="https://github.com/broken-s4/" />
+  <remote name="s4-unified"
+          fetch="https://github.com/s4-unified/" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
@@ -45,7 +45,7 @@
   <project path="device/qcom/common" name="device_qcom_common" remote="tipsy" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="tipsy" />
   <project path="frameworks/av" name="frameworks_av" remote="tipsy" />
-  <project path="frameworks/base" name="frameworks_base" remote="tipsy" revision="testing" />
+  <project path="frameworks/base" name="frameworks_base" remote="s4-unified" revision="6.0" />
   <project path="frameworks/native" name="frameworks_native" remote="tipsy" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="tipsy" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="tipsy" />
@@ -537,8 +537,8 @@
   </project>
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="tipsy-unleashed" revision="6.0" />
   <project name="local_manifest" path=".repo/local_manifests" remote="manifest" revision="tipsy" />
-  <project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="broken-s4" revision="aosp-6.0-test" />
-  <project path="packages/apps/CarrierConfig" name="platform_packages_apps_CarrierConfig" remote="broken-s4" revision="broken" />
+  <project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="s4-unified" revision="aosp-6.0-test" />
+  <project path="packages/apps/CarrierConfig" name="platform_packages_apps_CarrierConfig" remote="s4-unified" revision="broken" />
   <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy-unleashed" revision="6.0" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="broken" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="broken" />
