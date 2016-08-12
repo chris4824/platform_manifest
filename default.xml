@@ -64,6 +64,13 @@
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="tipsy" />
   <project path="system/core" name="android_system_core" remote="tipsy" />
 
+  <!-- OMS -->
+  <project path="frameworks/base" name="frameworks_base" remote="tipsy-unleashed" revision="oms" />
+  <project path="frameworks/native" name="frameworks_native" remote="tipsy" revision="oms" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tipsy-unleashed" revision="oms" />
+  <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy-unleashed" revision="oms" />
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
+
   <!-- OTA -->
   <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="tipsy" />
   <project path="OTA_config" name="OTA_config" remote="tipsy" revision="master" >
@@ -73,9 +80,6 @@
   <!-- Kernel Adiutor -->
   <project path="packages/apps/KernelAdiutor" name="KernelAdiutor" remote="vm" />
   <project path="packages/apps/FloatingActionButton" name="FloatingActionButton" remote="vm" />
-
-  <!-- OMS needs -->
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
 
   <!-- Tipsy Additions  -->
   <project path="external/google" name="android_external_google" remote="cm" revision="cm-13.0" />
@@ -578,10 +582,5 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="tipsy-unleashed" revision="6.0" />
   <project name="local_manifest" path=".repo/local_manifests" remote="manifest" revision="tipsy" />
   <project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="s4-unified" revision="aosp-6.0-test" />
-  <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy-unleashed" revision="6.0" />
-  <project path="frameworks/base" name="frameworks_base" remote="tipsy-unleashed" revision="6.0" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tipsy-unleashed" revision="6.0" />
-
-
 
 </manifest>
