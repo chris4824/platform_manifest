@@ -578,7 +578,8 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="tipsy-unleashed" revision="6.0" />
   <project name="local_manifest" path=".repo/local_manifests" remote="manifest" revision="tipsy" />
   <project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="s4-unified" revision="aosp-6.0-test" />
-  <project path="frameworks/base" name="frameworks_base" remote="tipsy-unleashed" revision="oms" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tipsy-unleashed" revision="oms" />
-  <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy-unleashed" revision="oms" />
+  <project path="frameworks/base" name="frameworks_base" remote="tipsy-unleashed" revision="6.0" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="tipsy-unleashed" revision="6.0" />
+  <project path="vendor/tipsy" name="vendor_tipsy" remote="tipsy-unleashed" revision="6.0" />
+  <project path="packages/apps/CarrierConfig" name="platform_packages_apps_CarrierConfig" remote="tipsy-unleashed" revision="6.0" />
 </manifest>
